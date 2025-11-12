@@ -51,7 +51,7 @@ python main.py
 
 👤 Autor
 Camilo Martinez  
-Estudiante de Ingeniería de Software  
+Estudiante de Ingeniería de Sistemas  
 Universidad Uniremington
 
 
