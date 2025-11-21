@@ -1,15 +1,15 @@
-🧩 Sistema de Notificaciones
+Sistema de Notificaciones
 
 Proyecto académico desarrollado para la asignatura **Ingeniería de Software 2**.
 
 ---
 
-🧠 Descripción general
+Descripción general
 Este sistema implementa los patrones de diseño **Observer** y **Factory Method** en lenguaje **Python**, con el propósito de gestionar un sistema de notificaciones modular, extensible y reutilizable.
 
 ---
 
-🏗️ Patrones de diseño aplicados
+Patrones de diseño aplicados
 
 🔹 Observer
 Permite que múltiples objetos (suscriptores) reciban actualizaciones automáticas desde un sujeto común cuando cambia su estado.
@@ -25,7 +25,7 @@ Facilita la creación de objetos de tipo `Notifier` sin acoplar el código a cla
 
 ---
 
-📁 Estructura del proyecto
+Estructura del proyecto
 
 Notificaciones/
 ├── main.py
@@ -38,7 +38,7 @@ Notificaciones/
 
 ---
 
-🧩 Funcionamiento
+Funcionamiento
 1. Se crean los suscriptores (`UserSubscriber`) con sus respectivos canales de notificación.
 2. Cada suscriptor se registra en el tema principal (`NotificationTopic`).
 3. Cuando el tema publica un mensaje, los suscriptores reciben la notificación según su canal (Email, SMS o Push).
